@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas em CSS</title>
+    <style>
+        h1{
+            background-color: dimgrey;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: black;
+            /* sh: largura, estilo e cor */
+
+            padding: 10px 10px 10px 10px;
+            /* sh: sentido horário partindo de cima, ou apenas uma medida caso todos os lados sejam iguais */
+
+            margin: auto;
+            /* sh: sentido horário partindo de cima */
+
+            outline-width: 7px;
+            outline-style: double;
+            outline-color: maroon;
+            /* sh: largura, estilo e cor */
+        }
+        a{
+            border-width: 3px;
+            border-style: solid;
+            border-color: lightskyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Caixa box-level</h1>
+    <p>Parágrafos são exemplos de box-level, enquanto <a href="#">links</a> são exemplos de inline-level.</p>
+</body>
+</html>
